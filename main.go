@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	myFigure := figure.NewColorFigure("sashatooryani@gmail.com is Awesome!!!", "larry3d", "yellow", true)
+	myFigure := figure.NewColorFigure("sashatooryani is Awesome!!!", "larry3d", "yellow", true)
 	myFigure.Print()
 
 	if secret := os.Getenv("SECRET"); secret != "" {
@@ -19,3 +19,6 @@ func main() {
 	
 	time.Sleep(10 * time.Hour)
 }
+
+
+// comment
